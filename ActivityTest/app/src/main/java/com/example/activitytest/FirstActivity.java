@@ -34,6 +34,7 @@ public class FirstActivity extends BaseActivity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.first_layerout);
         Button button1 = (Button) findViewById(R.id.button_1);
+        Log.d("FirstActivity", "TaskId is " + getTaskId());
         /*
         progressBar = (ProgressBar)findViewById(R.id.progress_bar);
         button1.setOnClickListener(this);
